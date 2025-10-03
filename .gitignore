@@ -11,3 +11,8 @@ assets/libs/
 node_modules/
 vendor
 .idea
+
+# Test scripts
+test-deploy-logic.sh
+test-with-act.sh
+test-gh-script.js

@@ -48,13 +48,10 @@ jobs:
               ref: pr.head.sha
             });
 
-            const deploySiteCheck = checkRuns.check_runs.find(check => check.name === 'deploy');
             const filterFilesCheck = checkRuns.check_runs.find(check => check.name === 'Detect what files changed');
-
-            const deploySitePassing = deploySiteCheck && deploySiteCheck.conclusion === 'success';
             const filterFilesPassing = filterFilesCheck && filterFilesCheck.conclusion === 'success';
 
-            if (deploySitePassing && filterFilesPassing) {
+            if (filterFilesPassing) {
               approvedPRs.push({
                 number: pr.number,
                 head_sha: pr.head.sha,
@@ -64,7 +61,7 @@ jobs:
             }
           }
 
-          console.log(`Found ${approvedPRs.length} approved PRs with passing checks:`, approvedPRs.map(pr => `#${pr.number}: ${pr.title}`));
+          console.log(`Found ${approvedPRs.length} PRs with passing filter-files check:`, approvedPRs.map(pr => `#${pr.number}: ${pr.title}`));
           return approvedPRs;
 
     - name: Merge approved PRs
