@@ -160,6 +160,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/llm-post-training/";
           
         },
+      },{id: "post-justrl-scaling-a-1-5b-llm-with-a-simple-rl-recipe",
+        
+          title: "JustRL: Scaling a 1.5B LLM with a Simple RL Recipe",
+        
+        description: "Training small reasoning models with RL has become a race toward complexity, using multi-stage pipelines, dynamic schedules, and curriculum learning. We ask whether this complexity necessary? We show that JustRL, a simple recipe with fixed hyperparameters, achieves state-of-the-art performance on two different 1.5B base models (54.5% and 64.3% across 9 math benchmarks) while using 2× less compute than sophisticated approaches. The same hyperparameters transfer across both models without tuning, and training remains stable over thousands of steps without intervention. This suggests the field may be adding complexity to solve problems that disappear with a stable, scaled-up baseline.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/justrl/";
+          
+        },
       },{id: "post-sample-blog-post",
         
           title: "Sample Blog Post",
