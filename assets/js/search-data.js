@@ -171,6 +171,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/llm-post-training/";
           
         },
+      },{id: "post-are-dilemmas-and-conflicts-in-llm-alignment-solvable-a-view-from-priority-graph",
+        
+          title: "Are Dilemmas and Conflicts in LLM Alignment Solvable? A View from Priority Graph...",
+        
+        description: "As Large Language Models (LLMs) become more powerful and autonomous, they increasingly face conflicts and dilemmas in many scenarios. We first summarize and taxonomize these diverse conflicts. Then, we model the LLM&#39;s preferences to make different choices as a priority graph, where instructions and values are nodes, and the edges represent context-specific priorities determined by the model&#39;s output distribution. This graph reveals that a unified stable LLM alignment is very challenging, because the graph is neither static nor necessarily consistent in different contexts. Besides, it also reveals a potential vulnerability: priority hacking, where adversaries can craft deceptive contexts to manipulate the graph and bypass safety alignments. To counter this, we propose a runtime verification mechanism, enabling LLMs to query external sources to ground their context and resist manipulation. While this approach enhances robustness, we also acknowledge that many ethical and value dilemmas are philosophically irreducible, posing a long-term, open challenge for the future of AI alignment.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/llm-conflicts/";
+          
+        },
       },{id: "post-justrl-scaling-a-1-5b-llm-with-a-simple-rl-recipe",
         
           title: "JustRL: Scaling a 1.5B LLM with a Simple RL Recipe",
