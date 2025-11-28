@@ -105,17 +105,6 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/sac-massive-sim/";
           
         },
-      },{id: "post-pushing-meta-continual-learning-algorithms-to-the-limit",
-        
-          title: "Pushing Meta-Continual Learning Algorithms to the Limit",
-        
-        description: "Meta-continual learning algorithms should be able to handle tasks with extended data streams compared to the traditional deep learning setting. These algorithms have not been applied to settings with extreme data streams, such as classification tasks with 1,000 classes, nor have they been compared to traditional continual learning algorithms. In this blog, we compare GeMCL and OML, two meta-continual algorithms trained on the CASIA dataset, against the REMIND continual learning algorithm and an Offline learner. We evaluate these methods on 1,000-way 10-shot classification tasks using the Omniglot and CASIA datasets.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/pushing-meta-cl-methods/";
-          
-        },
       },{id: "post-language-as-a-window-into-the-mind-how-nlp-and-llms-advance-human-sciences",
         
           title: "Language as a Window Into the Mind: How NLP and LLMs Advance Human...",
