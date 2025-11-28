@@ -105,9 +105,9 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/sac-massive-sim/";
           
         },
-      },{id: "post-how-well-do-the-meta-cl-algorithms-perform-at-scale",
+      },{id: "post-pushing-meta-continual-learning-algorithms-to-the-limit",
         
-          title: "How well do the meta-CL algorithms perform at scale?",
+          title: "Pushing Meta-Continual Learning Algorithms to the Limit",
         
         description: "Coming soon to a pull request near you!",
         section: "Posts",
