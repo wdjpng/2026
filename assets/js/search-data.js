@@ -259,6 +259,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/flow-map-learning/";
           
         },
+      },{id: "post-the-effect-of-feature-resolution-on-embedding-dimension",
+        
+          title: "The effect of feature resolution on embedding dimension",
+        
+        description: "High-dimensional data can be compressed into lower-dimensional embeddings while retaining a relatively large amount of relevant information, a phenomenon which, despite its widespread use, we struggle to fully explain. In this post, we use a common property of datasets - a limit on the number of features per data point - to show how a slight uniform dependence between features can be exploited to reduce the required dimensions by at least a third, while sacrificing no information about the features. To do so, we introduce the concepts of dataset resolution and feature composition of a dataset, and analyse how a set of orderings of the dataset affect the types of partitions we can create of the dataset.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/feature-reduction/";
+          
+        },
       },{id: "post-evalcards-for-standardized-evaluation-reporting",
         
           title: "EvalCards for Standardized Evaluation Reporting",
