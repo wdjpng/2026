@@ -303,6 +303,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/distill-example/";
           
         },
+      },{id: "post-navigating-the-manifold-a-geometric-perspective-on-diffusion-based-inverse-problems",
+        
+          title: "Navigating the Manifold — A Geometric Perspective on Diffusion-Based Inverse Problems",
+        
+        description: "This blogpost develops a geometric and probabilistic lens on diffusion priors for inverse problems. We show that a wide range of methods mostly instantiate two operator-splitting paradigms, i.e., posterior-guided sampling and clean-space local-MAP optimization. Through manifold diagrams, Tweedie-based animations, and step-by-step derivations, we explain how these paradigms decouple a pretrained diffusion prior from measurement physics, clarify when they approximate full posterior sampling versus MAP estimation, and distill practical design rules for building robust diffusion-based inverse solvers.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/diffusion-inverse-problems/";
+          
+        },
       },{id: "post-from-u-nets-to-dits-the-architectural-evolution-of-text-to-image-diffusion-models-2021-2025",
         
           title: "From U-Nets to DiTs: The Architectural Evolution of Text-to-Image Diffusion Models (2021–2025)",
