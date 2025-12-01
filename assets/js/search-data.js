@@ -83,6 +83,28 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/wait-do-we-need-to-wait/";
           
         },
+      },{id: "post-using-large-language-models-to-simulate-and-predict-human-decision-making",
+        
+          title: "Using Large Language Models to Simulate and Predict Human Decision-Making",
+        
+        description: "We explore how large language models can be used to predict human decisions in language-based persuasion games, comparing direct prompting, LLM-based data generation, and hybrid methods that mix synthetic and human data.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/using-large-language-models-to-simulate-and-predict-human-decision-making/";
+          
+        },
+      },{id: "post-what-and-what-not-are-calibrated-uncertainties-actually-useful-for",
+        
+          title: "What (and What Not) are Calibrated Uncertainties Actually Useful for?",
+        
+        description: "The blogpost clarifies the usefulness of having a model with calibrated probabilities, something that is not often stated in the calibration literature. I shows that a calibrated model can be relied on to estimate average loss/reward, however, good calibration does not mean that a model is useful for per-sample decision making.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/useful-calibrated-uncertainties/";
+          
+        },
       },{id: "post-tracing-the-principles-behind-modern-diffusion-models",
         
           title: "Tracing the Principles Behind Modern Diffusion Models",
@@ -325,17 +347,6 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/diffusion-inverse-problems/";
           
         },
-      },{id: "post-defining-and-quantifying-compositional-structure",
-        
-          title: "Defining and quantifying compositional structure",
-        
-        description: "Compositionality is thought to be crucial in human cognition and AI, but we lack a scientific understanding of what it is. What kind of data is compositionally structured? Can we mathematically quantify the amount and character of compositional structure? This blog post introduces a novel approach for doing so, building off of existing tools from algorithmic information theory that formalize notions of complexity and structure. The mathematical definition of compositionality that we&#39;ll come to is rigorous, precise, and general, and the hope is that it can inspire novel research directions in AI for uncovering compositional structure in natural data.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/compositionality/";
-          
-        },
       },{id: "post-chunktabpfn-training-free-long-context",
         
           title: "ChunkTabPFN: Training-free Long Context",
@@ -356,6 +367,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/budget-alignment/";
+          
+        },
+      },{id: "post-beyond-the-rerun-why-reproducibility-is-failing-science",
+        
+          title: "Beyond the Rerun: Why Reproducibility is Failing Science",
+        
+        description: "Is reproducibility enough? We discuss the current reproducibility crisis and the limitations that focusing solely on this aspect of scientific project quality imposes on science. We propose a broader approach to the problem of scientific debt and outline practical actions researchers can take in their research. We also draw attention to the need for community action on the issue.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/beyond-the-rerun/";
           
         },
       },{id: "post-",
