@@ -369,6 +369,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/diffusion-architecture-evolution/";
           
         },
+      },{id: "post-content-promotion-as-a-strategic-game-how-to-design-agentic-publishers-for-the-evolving-search-ecosystem-in-the-genai-era",
+        
+          title: "Content Promotion as a Strategic Game: How to Design Agentic Publishers for the...",
+        
+        description: "With the rise of LLMs, publishers now operate in a dual world where traditional search and chat-like systems coexist. We propose a unified, game-theoretic view of this environment and highlight different tools, such as Multi-Agent Reinforcement Learning, that support the development of competitive content-optimization agents.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/content-promotion-agent-design/";
+          
+        },
       },{id: "post-budget-alignment-making-models-reason-in-the-user-39-s-language",
         
           title: "Budget Alignment: Making Models Reason in the User&#39;s Language",
