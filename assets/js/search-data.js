@@ -83,6 +83,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/fans/";
           
         },
+      },{id: "post-visual-reversal-curse-from-general-domain-to-remote-sensing-images",
+        
+          title: "Visual Reversal Curse: From General Domain to Remote Sensing Images",
+        
+        description: "The &#39;Reversal Curse&#39; highlights a fundamental limitation in AI: models often fail to infer inverse relationships. This post investigates whether this curse extends to Vision Foundation Models and proposes remote sensing image translation as the optimal testbed for evaluating bidirectional visual generalization.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/visual-reversal-curse-from-general-domain-to-remote-sensing-images/";
+          
+        },
       },{id: "post-text-to-image-compression-for-long-context-understanding",
         
           title: "Text-to-Image compression for long context understanding",
@@ -158,17 +169,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/speeding-up-rl/";
-          
-        },
-      },{id: "post-exploring-visual-inversion-problems-from-world-models-to-remote-sensing-image-to-image-translation",
-        
-          title: "Exploring Visual Inversion Problems: From World Models to Remote Sensing Image-to-Image Translation",
-        
-        description: "This blog post explores the underexplored problem of visual inversion in the context of world models, arguing that remote sensing data provides optimal native image pairs for image-to-image translation tasks, and investigates whether current vision foundation models can solve these visual inversion problems through in-context learning.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/remote-sensing-foundation-models-to-world-models/";
           
         },
       },{id: "post-pushing-meta-continual-learning-algorithms-to-the-limit",
