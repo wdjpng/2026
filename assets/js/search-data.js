@@ -248,17 +248,6 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/from-ml-to-dl/";
           
         },
-      },{id: "post-from-trajectories-to-operators-a-unified-flow-map-perspective-on-generative-modeling",
-        
-          title: "From Trajectories to Operators — A Unified Flow Map Perspective on Generative Modeling...",
-        
-        description: "In this post, we reframe continuous-time generative modeling from integrating trajectories to learning two-time operators (flow maps). This operator view unifies diffusion, flow matching, and consistency models, and suggests a practical diagnostic — semigroup-consistent jumps yield both step-robust generation and low compositional drift. We derive Eulerian/Lagrangian distillation objectives and use inpainting experiments to show why semigroup-consistent jumps can be both step-robust and composition-stable.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/flow-map-learning/";
-          
-        },
       },{id: "post-understanding-and-fixing-bottlenecks-in-state-space-models-what-recency-and-over-smoothing-tell-us",
         
           title: "Understanding and Fixing Bottlenecks in State Space Models: What Recency and Over-Smoothing Tell...",
