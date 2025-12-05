@@ -105,6 +105,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/visual-long-context/";
           
         },
+      },{id: "post-visualizing-llm-latent-space-geometry-through-dimensionality-reduction",
+        
+          title: "Visualizing LLM Latent Space Geometry Through Dimensionality Reduction",
+        
+        description: "In this blog post, we extract, process, and visualize latent state geometries in Transformer-based language models through dimensionality reduction to build a better intuition of their internal dynamics. We demonstrate experiments with GPT-2 and LLaMa models, uncovering interesting geometric patterns in their latent spaces. Notably, we identify a clear separation between attention and MLP component outputs across intermediate layers, a pattern not documented in prior work to our knowledge.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/vis-llm-latent-geometry/";
+          
+        },
       },{id: "post-using-large-language-models-to-simulate-and-predict-human-decision-making",
         
           title: "Using Large Language Models to Simulate and Predict Human Decision-Making",
