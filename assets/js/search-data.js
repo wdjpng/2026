@@ -149,17 +149,6 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/unigramlm-manual/";
           
         },
-      },{id: "post-tracing-the-principles-behind-modern-diffusion-models",
-        
-          title: "Tracing the Principles Behind Modern Diffusion Models",
-        
-        description: "Diffusion models can feel like a jungle of acronyms, but the core idea is simple: start from noise and gradually move a cloud of samples until it looks like real data. This post gives an intuition-first tour showing that DDPMs, score-based models, and flow matching are the same recipe with different prediction targets, all rooted in the change-of-variable rule from calculus and powered by one shared “conditional trick” that turns learning into supervised regression. Finally, we zoom out to the speed problem and show how flow map models aim to replace many tiny denoising steps with a few big, accurate jumps toward real-time generation.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/tracing-principles-behind-modern-diffusion-models/";
-          
-        },
       },{id: "post-from-dense-monoliths-to-modular-minds-the-rise-of-symbolic-routing-in-llms",
         
           title: "From Dense Monoliths to Modular Minds: The Rise of Symbolic Routing in LLMs...",
@@ -367,6 +356,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/content-promotion-agent-design/";
+          
+        },
+      },{id: "post-the-99-success-paradox-when-near-perfect-retrieval-equals-random-selection",
+        
+          title: "The 99% Success Paradox: When Near-Perfect Retrieval Equals Random Selection",
+        
+        description: "For most of the history of information retrieval (IR), search results were designed for human consumers who could scan, filter, and discard irrelevant information on their own. This shaped retrieval systems to optimize for finding and ranking more relevant documents, but not keeping results clean and minimal, as the human was the final filter. However, LLMs have changed that by lacking this filtering ability. To address this, we introduce Bits-over-Random (BoR), a chance-corrected measure of retrieval selectivity that reveals when high success rates mask random-level performance.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/bits-over-random/";
           
         },
       },{id: "post-beyond-the-rerun-why-reproducibility-is-failing-science",
