@@ -94,6 +94,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/visual-reversal-curse-from-general-domain-to-remote-sensing-images/";
           
         },
+      },{id: "post-text-as-image-a-visual-encoding-approach-for-long-context-understanding",
+        
+          title: "Text-as-Image, A Visual Encoding Approach for Long-Context Understanding",
+        
+        description: "Humans process text through visual perception much like viewing images or videos, but current AI systems typically use different encoders and processing pipelines when handling different modalities. In this blog post, we investigate recent works that attempt a human-inspired paradigm for processing texts that is converting textual contexts into images and subsequently using visual language models (VLMs) to process them. We start by explaining technical implementations of such conversions and their strengths. We then perform evaluation on long context understanding benchmarks that are more challenging than those used in prior works, with the objective to better analyze how these methods work or fail. Finally, we implement several improvements to existing approaches, including refined conversion techniques and context preprocessing strategies before conversion to images, observing their impacts on task performance to derive insights on future research directions.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/visual-long-context/";
+          
+        },
       },{id: "post-using-large-language-models-to-simulate-and-predict-human-decision-making",
         
           title: "Using Large Language Models to Simulate and Predict Human Decision-Making",
@@ -389,17 +400,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/a-human-centric-framework-for-debating-the-ethics-of-ai-consciousness-under-uncertainty/";
-          
-        },
-      },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2025/2026-04-27-visual-long-context/";
           
         },
       },{id: "books-the-godfather",
