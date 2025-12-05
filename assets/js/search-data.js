@@ -201,7 +201,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026/blog/2026/recurrefinereason/";
+            window.location.href = "/2026/blog/2026/recur-refine-reason/";
           
         },
       },{id: "post-performative-prediction-made-practical",
