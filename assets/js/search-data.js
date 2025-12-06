@@ -105,6 +105,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/vis-llm-latent-geometry/";
           
         },
+      },{id: "post-the-value-of-probabilistic-circuits-for-uncertainty-quantification",
+        
+          title: "The Value of Probabilistic Circuits for Uncertainty Quantification",
+        
+        description: "Deep learning models struggle with epistemic uncertainty quantification, often exhibiting blind confidence on out-of-distribution data. This work reviews on Probabilistic Circuits (PCs) as a versatile framework for rigorous, tractable reasoning. PCs model the joint probability distribution and by enforcing structural constraints, specifically smoothness, decomposability, and determinism, they allow for the exact computation of marginals, conditionals, and moments in polynomial time without retraining. We discuss on the suitability of PCs for Uncertainty Quantification, describing their advantages and highlighting their PCs for tractable UQ in high-dimensional problems.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/value-of-probabilistic-circuits-for-uncertainty-quantification/";
+          
+        },
       },{id: "post-unigramlm-an-attempt-at-writing-the-missing-manual",
         
           title: "UnigramLM - An Attempt at Writing the Missing Manual",
@@ -235,17 +246,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/from-ml-to-dl/";
-          
-        },
-      },{id: "post-understanding-and-fixing-bottlenecks-in-state-space-models-what-recency-and-over-smoothing-tell-us",
-        
-          title: "Understanding and Fixing Bottlenecks in State Space Models: What Recency and Over-Smoothing Tell...",
-        
-        description: "This work analyzes how recency bias and hidden-state over-smoothing emerge in modern State Space Models, revealing the bottlenecks that limit their ability to capture long-range dependencies.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/fixing-bottlenecks-in-state-space-models/";
           
         },
       },{id: "post-are-llm-agent-populations-really-emergent-a-comprehensive-perspective",
