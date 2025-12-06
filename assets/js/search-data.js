@@ -116,17 +116,6 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/vis-llm-latent-geometry/";
           
         },
-      },{id: "post-is-your-algorithm-unlearning-or-untraining",
-        
-          title: "Is your algorithm Unlearning or Untraining?",
-        
-        description: "Machine unlearning aims to post-process a trained model in order to remove the influence of specific training examples or higher-level knowledge. We argue that the term unlearning is overloaded, with different use cases belonging to distinct problem formulations. This issue causes confusion in the community: it is often unclear what the goals of different proposed methods are, when they are expected to work, how they should be evaluated, and what baselines they should be compared against. To address this, we establish a fundamental distinction between two notions that we identify as Unlearning and Untraining, aiming to guide the field towards disambiguating technical definitions, to unlock more progress in clarifying goals, designing evaluation metrics for each, and ultimately better algorithms.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/unlearning-or-untraining/";
-          
-        },
       },{id: "post-unigramlm-an-attempt-at-writing-the-missing-manual",
         
           title: "UnigramLM - An Attempt at Writing the Missing Manual",
