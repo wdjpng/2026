@@ -72,18 +72,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "https://iclr-blog-track.github.io/home/";
               },
-            },{id: "post-fans-frequency-adaptive-noise-shaping-for-diffusion-models",
-        
-          title: "FANS - Frequency-Adaptive Noise Shaping for Diffusion Models",
-        
-        description: "Diffusion models have achieved remarkable success in generative modeling, yet they often struggle with spectral bias,the tendency to prioritize low-frequency patterns while inadequately learning high-frequency details. This limitation stems from the uniform noise scheduling employed during training, which allocates equal denoising capacity across all frequencies regardless of the dataset&#39;s spectral characteristics. We introduce Frequency-Adaptive Noise Shaping (FANS), a principled framework that addresses this fundamental limitation by dynamically shaping noise distributions according to dataset-specific frequency importance. FANS operates on a simple insight - different datasets exhibit distinct spectral signatures, and noise scheduling should reflect these differences. The framework integrates seamlessly with existing diffusion architectures through a simple modification to the noise sampling procedure during training and inference.We validate FANS on synthetic datasets with controlled spectral properties as well as real world data (CIFAR10, CelebA, Texture, MultimodalUniverse) where we demonstrate consistent improvements over vanilla DDPM baselines. Our experiments reveal that FANS particularly excels on high-frequency-rich datasets, producing sharper, more detailed samples while maintaining comparable performance for standard natural image datasets like CIFAR10 and CelebA.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/fans/";
-          
-        },
-      },{id: "post-visual-reversal-curse-from-general-domain-to-remote-sensing-images",
+            },{id: "post-visual-reversal-curse-from-general-domain-to-remote-sensing-images",
         
           title: "Visual Reversal Curse: From General Domain to Remote Sensing Images",
         
@@ -136,6 +125,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/symbolic-connect/";
+          
+        },
+      },{id: "post-artistic-style-and-the-play-of-neural-style-representations",
+        
+          title: "Artistic Style and the Play of Neural Style Representations",
+        
+        description: "How do neural newtowrks percieve the complex human construct of artistic style? We explore the dynamic interplay between diverse machine representations of style and style definitions. We reveal a profound divergence where models often reject established historical narratives in favour of their own perceptual truths.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/style-representations/";
           
         },
       },{id: "post-sparsity",
