@@ -380,6 +380,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/a-human-centric-framework-for-debating-the-ethics-of-ai-consciousness-under-uncertainty/";
           
         },
+      },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2025/2026-04-27-philosophy-of-model-editing/";
+          
+        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
