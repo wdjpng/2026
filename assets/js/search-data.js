@@ -116,28 +116,6 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/vis-llm-latent-geometry/";
           
         },
-      },{id: "post-using-large-language-models-to-simulate-and-predict-human-decision-making",
-        
-          title: "Using Large Language Models to Simulate and Predict Human Decision-Making",
-        
-        description: "We explore how large language models can be used to predict human decisions in language-based persuasion games, comparing direct prompting, LLM-based data generation, and hybrid methods that mix synthetic and human data.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/using-large-language-models-to-simulate-and-predict-human-decision-making/";
-          
-        },
-      },{id: "post-what-and-what-not-are-calibrated-uncertainties-actually-useful-for",
-        
-          title: "What (and What Not) are Calibrated Uncertainties Actually Useful for?",
-        
-        description: "This blogpost clarifies the practical usefulness of having a model with calibrated probabilities, something that is not often clearly stated in the calibration literature. We show that a calibrated model can be relied on to estimate average loss/reward, however, good calibration does not mean that a model is useful for per-sample decision making.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/useful-calibrated-uncertainties/";
-          
-        },
       },{id: "post-is-your-algorithm-unlearning-or-untraining",
         
           title: "Is your algorithm Unlearning or Untraining?",
@@ -400,6 +378,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/a-human-centric-framework-for-debating-the-ethics-of-ai-consciousness-under-uncertainty/";
+          
+        },
+      },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2025/2026-04-27-philosophy-of-model-editing/";
           
         },
       },{id: "books-the-godfather",
