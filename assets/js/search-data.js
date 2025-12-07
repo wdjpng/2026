@@ -237,6 +237,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/illusion-of-mastery/";
           
         },
+      },{id: "post-in-context-learning-of-representations-can-be-explained-by-induction-circuits",
+        
+          title: "In-context learning of representations can be explained by induction circuits",
+        
+        description: "Park et al., 2025 demonstrate that large language models can learn to trace random walks on graphs presented in context, and observe that token representations reorganize to reflect the underlying graph structure. This has been interpreted as evidence that models &#39;flexibly manipulate their representations&#39; to reflect in-context semantics, and that this reorganization enables task performance. We offer a simpler mechanistic explanation. We first observe that task performance can be fully explained by induction circuits (Olsson et al., 2022), and show that ablating the attention heads that comprise these circuits substantially degrades performance. As for the geometric structure, we propose that it could result from previous token heads effectively mixing the representations of graph neighbors together. We show that a single round of such &#39;neighbor mixing&#39; on random embeddings recreates the observed graph correspondence in PCA visualizations. These results suggest that apparent &#39;representation reorganization&#39; may be a byproduct of the model&#39;s induction circuits, rather than a critical strategy useful for in-context learning.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/iclr-induction/";
+          
+        },
       },{id: "post-quot-how-to-transition-from-ml-to-dl-in-production-lessons-from-the-trenches-at-company-quot",
         
           title: "[&quot;How to Transition from ML to DL in Production - Lessons From the...",
