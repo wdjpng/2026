@@ -182,6 +182,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/tracing-principles-behind-modern-diffusion-models/";
           
         },
+      },{id: "post-the-information-shadow-why-there-are-things-llms-can-never-ever-know",
+        
+          title: "The Information Shadow - Why There Are Things LLMs Can Never, Ever Know...",
+        
+        description: "This blogpost introduces the idea of the information shadow - the region of reality that large language models can never fully know, no matter their scale or training data. We argue that some truths are fundamentally inaccessible because they cannot be expressed in language, cannot be inferred from observable data, or cannot be reached by gradient-based training dynamics. Through thought experiments and concrete probes, the post shows how representational limits, identifiability barriers, and optimization constraints create predictable blind spots in model behavior. Understanding this shadow is essential for building safer systems, designing better benchmarks, and avoiding misplaced confidence in model outputs. The goal is not to diminish LLMs, but to map the structural edges of their intelligence.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/the-information-shadow/";
+          
+        },
       },{id: "post-the-evolution-of-flashattention",
         
           title: "The Evolution of FlashAttention",
