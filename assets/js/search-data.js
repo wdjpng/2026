@@ -182,6 +182,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/tracing-principles-behind-modern-diffusion-models/";
           
         },
+      },{id: "post-the-information-shadow-why-there-are-things-llms-can-never-ever-know",
+        
+          title: "The Information Shadow - Why There Are Things LLMs Can Never, Ever Know...",
+        
+        description: "This blogpost introduces the idea of the information shadow - the region of reality that large language models can never fully know, no matter their scale or training data. We argue that some truths are fundamentally inaccessible because they cannot be expressed in language, cannot be inferred from observable data, or cannot be reached by gradient-based training dynamics. Through thought experiments and concrete probes, the post shows how representational limits, identifiability barriers, and optimization constraints create predictable blind spots in model behavior. Understanding this shadow is essential for building safer systems, designing better benchmarks, and avoiding misplaced confidence in model outputs. The goal is not to diminish LLMs, but to map the structural edges of their intelligence.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/the-information-shadow/";
+          
+        },
       },{id: "post-the-evolution-of-flashattention",
         
           title: "The Evolution of FlashAttention",
@@ -576,6 +587,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/genai-archaeology/";
+          
+        },
+      },{id: "post-quot-how-to-transition-from-ml-to-dl-in-production-lessons-from-the-trenches-at-company-quot",
+        
+          title: "[&quot;How to Transition from ML to DL in Production - Lessons From the...",
+        
+        description: "[&quot;A mature and entrenched boosting system has been powering Company’s risk systems for years. We outline our year-long incremental migration strategy to a pure deep learning system which is highlighted by an intermediate heterogeneous ensembling phase used to reach parity and then outperforming our boosting model in production. We learned along the way that a simple MLP can beat sophisticated tabular DL architectures at million-scale (1); ensembling is a practical bridge from ML to DL (2); and the biggest wins from DL are often beyond metrics (3).&quot;]",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/from-ml-to-dl/";
           
         },
       },{id: "post-from-trajectories-to-operators-a-unified-flow-map-perspective-on-generative-modeling",
