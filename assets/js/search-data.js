@@ -446,6 +446,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/model-misspecification-in-sbi/";
           
         },
+      },{id: "post-evaluating-machine-learned-inter-atomic-potentials-for-a-practical-simulation-workflow",
+        
+          title: "Evaluating Machine-Learned Inter-Atomic Potentials for a Practical Simulation Workflow",
+        
+        description: "MLIPs are a promising new paradigm in atomistic simulation, potentially offering the accuracy of ab-initio methods at the speed of empirical potentials. In this blog post, we give an overview of recent MLIP architectures, followed by an evaluation on a practical CO2 adsorption simulation. We find that as of today these models, though promising, are far from plug-and-play, requiring significant engineering effort to operate within established simulation frameworks, while also failing to produce physically consistent results.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/mlip-practical/";
+          
+        },
       },{id: "post-is-the-evidence-in-39-language-models-learn-to-mislead-humans-via-rlhf-39-valid",
         
           title: "Is the evidence in &#39;Language Models Learn to Mislead Humans via RLHF&#39; valid?...",
