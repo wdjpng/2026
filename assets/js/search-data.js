@@ -105,17 +105,6 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/style-representations/";
           
         },
-      },{id: "post-where-39-s-the-chicken-unpacking-spatial-awareness-in-vision-language-models",
-        
-          title: "Where&#39;s the Chicken? Unpacking Spatial Awareness in Vision-Language Models",
-        
-        description: "Modern vision-language models (VLMs) have achieved impressive success in recognizing and describing visual content, yet they continue to struggle with understanding spatial relationships. The limitation persists despite massive data and model scaling, suggesting that the root of the problem lies in the architecture and training objective rather than data alone. This post examines the underlying causes and discusses why recent proposed fixes, while promising, remain insufficient to achieve robust spatial reasoning.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/spatial-awareness/";
-          
-        },
       },{id: "post-don-39-t-look-up-every-token-escaping-quadratic-complexity-via-geometric-patterns-and-algorithms",
         
           title: "Don&#39;t Look Up (Every Token): Escaping Quadratic Complexity via Geometric Patterns and Algorithms",
@@ -158,17 +147,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/recur-refine-reason/";
-          
-        },
-      },{id: "post-probabilistic-circuits-for-uncertainty-quantification",
-        
-          title: "Probabilistic Circuits for Uncertainty Quantification",
-        
-        description: "Deep learning models struggle with epistemic uncertainty quantification, often exhibiting blind confidence on out-of-distribution data. This work reviews on Probabilistic Circuits (PCs) as a versatile framework for rigorous, tractable reasoning. PCs model the joint probability distribution and by enforcing structural constraints, specifically smoothness, decomposability, and determinism, they allow for the exact computation of marginals, conditionals, and moments in polynomial time without retraining. We discuss on the suitability of PCs for Uncertainty Quantification, describing their advantages and highlighting their PCs for tractable UQ in high-dimensional problems.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/probabilistic-circuits-for-uncertainty-quantification/";
           
         },
       },{id: "post-there-is-no-quot-apple-quot-in-timeseries-quot-rethinking-tsfm-through-the-lens-of-invariance",
@@ -263,7 +241,7 @@ ninja.data = [{
         
           title: "[&quot;How to Transition from ML to DL in Production - Lessons From the...",
         
-        description: "[&quot;A mature and entrenched boosting system has been powering Company’s risk systems for years. We outline our year long incremental migration strategy to a pure deep learning system which is highlighted by an intermediate heterogeneous ensembling phase used to reached parity and then outperforming our boosting model in production. We learned along the way that a simple MLPs can beat sophisticated tabular DL architectures at million-scale (1); ensembling is a practical bridge from ML to DL (2); and the biggest wins from DL are often beyond metrics (3).&quot;]",
+        description: "[&quot;A mature and entrenched boosting system has been powering Company’s risk systems for years. We outline our year-long incremental migration strategy to a pure deep learning system which is highlighted by an intermediate heterogeneous ensembling phase used to reach parity and then outperforming our boosting model in production. We learned along the way that a simple MLP can beat sophisticated tabular DL architectures at million-scale (1); ensembling is a practical bridge from ML to DL (2); and the biggest wins from DL are often beyond metrics (3).&quot;]",
         section: "Posts",
         handler: () => {
           
