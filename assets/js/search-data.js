@@ -193,17 +193,6 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/neural-audio-codecs/";
           
         },
-      },{id: "post-the-layered-ontology-of-models-resolving-the-epistemological-crisis-of-ai",
-        
-          title: "The Layered Ontology of Models, Resolving the Epistemological Crisis of AI",
-        
-        description: "We propose a five-layer model framework and discuss the concepts of Meaning and Truth in the era of large models through two thought experiments.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/layered-ontology-model/";
-          
-        },
       },{id: "post-how-to-open-the-black-box-amp-58-modern-models-for-mechanistic-interpretability",
         
           title: "How To Open the Black Box&amp;#58 Modern Models for Mechanistic Interpretability",
