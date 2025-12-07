@@ -226,6 +226,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/interpret-model/";
           
         },
+      },{id: "post-the-illusion-of-mastery-breaking-the-cycle-of-benchmark-memorization-with-generative-evaluation",
+        
+          title: "The Illusion of Mastery: Breaking the Cycle of Benchmark Memorization with Generative Evaluation...",
+        
+        description: "Modern AI models that score perfectly on standardized benchmarks often fail in real-world applications. In this post, we first examine why current evaluation paradigms increasingly fail to capture how models perform in real-world scenarios, leading to an illusion of competence. Then, we introduce generative evaluation that automatically creates novel, diverse tasks every time a model is tested, and explain how it offers a more realistic way to measure what AI systems can actually do.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/illusion-of-mastery/";
+          
+        },
       },{id: "post-quot-how-to-transition-from-ml-to-dl-in-production-lessons-from-the-trenches-at-company-quot",
         
           title: "[&quot;How to Transition from ML to DL in Production - Lessons From the...",
