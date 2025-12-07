@@ -149,6 +149,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/recur-refine-reason/";
           
         },
+      },{id: "post-probabilistic-circuits-for-uncertainty-quantification",
+        
+          title: "Probabilistic Circuits for Uncertainty Quantification",
+        
+        description: "Deep learning models struggle with epistemic uncertainty quantification, often exhibiting blind confidence on out-of-distribution data. This work reviews on Probabilistic Circuits (PCs) as a versatile framework for rigorous, tractable reasoning. PCs model the joint probability distribution and by enforcing structural constraints, specifically smoothness, decomposability, and determinism, they allow for the exact computation of marginals, conditionals, and moments in polynomial time without retraining. We discuss on the suitability of PCs for Uncertainty Quantification, describing their advantages and highlighting their PCs for tractable UQ in high-dimensional problems.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/probabilistic-circuits-for-uncertainty-quantification/";
+          
+        },
       },{id: "post-there-is-no-quot-apple-quot-in-timeseries-quot-rethinking-tsfm-through-the-lens-of-invariance",
         
           title: "There is No &quot;apple&quot; in Timeseries&quot; Rethinking TSFM through the Lens of Invariance...",
@@ -202,6 +213,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/interpret-model/";
+          
+        },
+      },{id: "post-how-many-tokens-does-it-take-to-say-quot-नमस्ते-quot-a-dive-into-indic-tokenization",
+        
+          title: "How many tokens does it take to say &quot;नमस्ते&quot;? A Dive into Indic...",
+        
+        description: "Tokenizers trained on English-dominant data often produce unusually high token counts for Indic languages. This &quot;tokenizer fertility&quot; increases sequence lengths, raises compute costs, and can hurt downstream performance, even when the underlying model is strong. In this post, we examine how fertility varies across major Indic scripts and how it affects language modeling quality, inference efficiency, and instruction-following behavior.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/indic-tokenization/";
           
         },
       },{id: "post-the-illusion-of-mastery-breaking-the-cycle-of-benchmark-memorization-with-generative-evaluation",
