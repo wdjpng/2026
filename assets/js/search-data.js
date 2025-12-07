@@ -94,17 +94,6 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/vis-llm-latent-geometry/";
           
         },
-      },{id: "post-unigramlm-an-attempt-at-writing-the-missing-manual",
-        
-          title: "UnigramLM - An Attempt at Writing the Missing Manual",
-        
-        description: "This post is my attempt to write down the UnigramLM tokenization algorithm cleanly and explicitly because, well, I still haven&#39;t found such a derivation and I think understanding the theory behind the method could help us make it better. I&#39;ll formalize the generative model around which the algorithm is based, derive the EM updates, explain why pruning is needed (and how it&#39;s done), and point out the spots where the practical implementation defined by the SentencePiece library diverges from the pretty mathematical models.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/unigramlm-manual/";
-          
-        },
       },{id: "post-from-dense-monoliths-to-modular-minds-the-rise-of-symbolic-routing-in-llms",
         
           title: "From Dense Monoliths to Modular Minds: The Rise of Symbolic Routing in LLMs...",
