@@ -182,6 +182,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/tracing-principles-behind-modern-diffusion-models/";
           
         },
+      },{id: "post-the-evolution-of-flashattention",
+        
+          title: "The Evolution of FlashAttention",
+        
+        description: "We present a mathematical &amp; technical overview of FlashAttention and its evolution across versions 1 to 4. We explain why IO-aware design became central to scalable transformers and how these kernels shape modern long-context LLMs as memory patterns and hardware limits shift. We then describe the changes across versions with Triton examples and place these kernels in the context of recent work on efficient attention. We close by outlining principles that can guide the next generation of attention algorithms.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/the-evolution-of-flashattention/";
+          
+        },
       },{id: "post-from-dense-monoliths-to-modular-minds-the-rise-of-symbolic-routing-in-llms",
         
           title: "From Dense Monoliths to Modular Minds: The Rise of Symbolic Routing in LLMs...",
