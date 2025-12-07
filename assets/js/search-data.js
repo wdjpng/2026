@@ -226,17 +226,6 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/speeding-up-rl/";
           
         },
-      },{id: "post-where-39-s-the-chicken-unpacking-spatial-awareness-in-vision-language-models",
-        
-          title: "Where&#39;s the Chicken? Unpacking Spatial Awareness in Vision-Language Models",
-        
-        description: "Modern vision-language models (VLMs) have achieved impressive success in recognizing and describing visual content, yet they continue to struggle with understanding spatial relationships. The limitation persists even with massive data and model scaling, suggesting that the root of the problem lies in the architecture and training objective rather than data alone. This post examines the underlying causes and discusses why recent proposed fixes, while promising, remain insufficient to achieve robust spatial reasoning.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/spatial-awareness/";
-          
-        },
       },{id: "post-don-39-t-look-up-every-token-escaping-quadratic-complexity-via-geometric-patterns-and-algorithms",
         
           title: "Don&#39;t Look Up (Every Token): Escaping Quadratic Complexity via Geometric Patterns and Algorithms",
@@ -598,6 +587,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/feature-reduction/";
+          
+        },
+      },{id: "post-approximating-faster-transformers",
+        
+          title: "Approximating Faster Transformers",
+        
+        description: "This post offers a comprehensive overview of sketching and sampling algorithms for DistilBERT",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/fastermatrices/";
           
         },
       },{id: "post-evalcards-for-standardized-evaluation-reporting",
