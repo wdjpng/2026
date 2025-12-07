@@ -138,17 +138,6 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/scaling-rlvr/";
           
         },
-      },{id: "post-using-graph-neural-networks-in-reinforcement-learning-a-practical-guide",
-        
-          title: "Using Graph Neural Networks in Reinforcement Learning: A Practical Guide",
-        
-        description: "Graph Neural Networks (GNNs) have achieved excellent results for modelling relational data in many supervised learning domains. However, much fewer works have explored their potential in Reinforcement Learning (RL) despite the ubiquity of practical problems defined over graphs. In this blog post, we discuss how GNNs can be effectively integrated in Deep RL frameworks, covering crucial design decisions and practical implementation concerns. In doing so, we hope to facilitate unlocking new capabilities for RL agents to reason in graph-structured environments with dynamic action spaces and varying input sizes.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/rl-with-gnns/";
-          
-        },
       },{id: "post-rethinking-the-diffusion-model-from-a-langevin-perspective",
         
           title: "Rethinking the Diffusion Model from a Langevin Perspective",
