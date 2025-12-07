@@ -314,17 +314,6 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/discretisation-invariance/";
           
         },
-      },{id: "post-from-u-nets-to-dits-the-architectural-evolution-of-text-to-image-diffusion-models-2021-2025",
-        
-          title: "From U-Nets to DiTs: The Architectural Evolution of Text-to-Image Diffusion Models (2021–2025)",
-        
-        description: "A comprehensive analysis of how diffusion model architectures evolved from U-Net backbones to Diffusion Transformers, transforming text-to-image generation capabilities.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/diffusion-architecture-evolution/";
-          
-        },
       },{id: "post-destruction-is-a-general-strategy-to-learn-generation-diffusion-39-s-strength-is-to-take-it-seriously-exploration-is-the-future",
         
           title: "Destruction is a General Strategy to Learn Generation; Diffusion&#39;s Strength is to Take...",
