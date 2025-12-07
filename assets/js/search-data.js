@@ -314,6 +314,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/pushing-meta-cl-methods/";
           
         },
+      },{id: "post-probabilistic-circuits-for-uncertainty-quantification",
+        
+          title: "Probabilistic Circuits for Uncertainty Quantification",
+        
+        description: "Deep learning models struggle with epistemic uncertainty quantification, often exhibiting blind confidence on out-of-distribution data. This work reviews on Probabilistic Circuits (PCs) as a versatile framework for rigorous, tractable reasoning. PCs model the joint probability distribution and by enforcing structural constraints, specifically smoothness, decomposability, and determinism, they allow for the exact computation of marginals, conditionals, and moments in polynomial time without retraining. We discuss on the suitability of PCs for Uncertainty Quantification, describing their advantages and highlighting their PCs for tractable UQ in high-dimensional problems.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/probabilistic-circuits-for-uncertainty-quantification/";
+          
+        },
       },{id: "post-performative-prediction-made-practical",
         
           title: "Performative Prediction made practical",
@@ -444,6 +455,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/llm-conflicts/";
+          
+        },
+      },{id: "post-the-layered-ontology-of-models-resolving-the-epistemological-crisis-of-ai",
+        
+          title: "The Layered Ontology of Models, Resolving the Epistemological Crisis of AI",
+        
+        description: "We propose a five-layer model framework and discuss the concepts of Meaning and Truth in the era of large models through two thought experiments.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/layered-ontology-model/";
           
         },
       },{id: "post-justrl-scaling-a-1-5b-llm-with-a-simple-rl-recipe",
