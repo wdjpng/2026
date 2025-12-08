@@ -622,17 +622,6 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/illusion-of-mastery/";
           
         },
-      },{id: "post-heuristic-based-ideation-for-guiding-llms-toward-structured-creativity",
-        
-          title: "Heuristic-Based Ideation for Guiding LLMs Toward Structured Creativity",
-        
-        description: "Large language models hold immense promise for accelerating scientific discovery, yet most LLM-based ideation methods still rely on ad-hoc strategies rather than principled frameworks. This blog introduces Ideation Heuristics, a systematic approach that formalizes 20 cognitive heuristics that structure how researchers generate new ideas. We show that researchers across disciplines find these heuristics highly useful, and we demonstrate how they can be operationalized through Claude skills.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/ideation-heuristics/";
-          
-        },
       },{id: "post-in-context-learning-of-representations-can-be-explained-by-induction-circuits",
         
           title: "In-context learning of representations can be explained by induction circuits",
@@ -895,17 +884,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/compositionality/";
-          
-        },
-      },{id: "post-can-coding-agents-be-general-agents",
-        
-          title: "Can Coding Agents be General Agents?",
-        
-        description: "Coding agents have seen rapid capability and adoption gains. Recently, a trend has emerged: users are applying coding agents to general automation tasks beyond software engineering. In this post, we investigate whether coding agents can generalize to end-to-end business process automation. We define success as the effective bidirectional translation between business-level goals and code-level implementation, and identify an evaluation gap: existing benchmarks test one of the two, but rarely both together. We bridge this gap with a case study, evaluating a coding agent on practical business operation tasks using an open-core Enterprise Resource Planning system, Odoo. We find that the agent reliably completes simple tasks but exhibits characteristic failures on complex tasks: lazy code heuristics, hallucinated domain knowledge, and silent policy violations. Our results suggest that bridging domain logic and code execution is a key bottleneck for general-purpose agents.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/coding-agents/";
           
         },
       },{id: "post-chunktabpfn-training-free-long-context",
