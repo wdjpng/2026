@@ -820,6 +820,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/diffusion-inverse-problems/";
           
         },
+      },{id: "post-diffusion-guidance-opportunities-for-physical-sciences",
+        
+          title: "Diffusion Guidance - Opportunities for Physical Sciences",
+        
+        description: "Guidance has been a central driver of the success of diffusion models, enabling precise control over the sampling process toward desired target conditions. The most widely used techniques include Classifier Guidance and Classifier-Free Guidance. Recently, however, there has been growing interest in alternative guidance strategies. In this blog post, we review recent progress in training-free diffusion guidance methods and highlight their applications in scientific domains.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/diffusion-guidance/";
+          
+        },
       },{id: "post-from-u-nets-to-dits-the-architectural-evolution-of-text-to-image-diffusion-models-2021-2025",
         
           title: "From U-Nets to DiTs: The Architectural Evolution of Text-to-Image Diffusion Models (2021–2025)",
