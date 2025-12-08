@@ -1,6 +1,6 @@
 ---
 layout: distill
-title: A small observation on Schulmann's KL divergence estimator
+title: A small observation on Schulman's KL divergence estimator
 description: The unbiased estimator of the Kullback–Leibler divergence introduced by John Schulman has a free parameter. Schulman sets it to one to yield non-negativity. Interestingly, we can prove that this parameter choice coincidentally also approximately minimizes variance 
 date: 2026-04-27
 future: true
