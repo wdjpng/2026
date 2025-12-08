@@ -600,17 +600,6 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/interpret-model/";
           
         },
-      },{id: "post-industrial-agent-benchmarking-what-300-real-evaluations-reveal-about-the-limits-of-agentic-ai",
-        
-          title: "Industrial Agent Benchmarking What 300+ Real Evaluations Reveal About the Limits of Agentic...",
-        
-        description: "A community-scale evaluation of multi-agent systems using AssetOpsBench and a privacy-preserving Codabench pipeline, exposing real-world failure modes and methodological gaps in industrial AI agent evaluation.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/industrial-agent-benchmarking/";
-          
-        },
       },{id: "post-how-many-tokens-does-it-take-to-say-नमस्ते-a-dive-into-indic-tokenization",
         
           title: "How many tokens does it take to say “नमस्ते”? A Dive into Indic...",
@@ -697,6 +686,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/from-ml-to-dl/";
+          
+        },
+      },{id: "post-flow-where-you-want",
+        
+          title: "Flow Where You Want",
+        
+        description: "This tutorial demonstrates how to add inference-time controls to pretrained flow-based generative models. Using an unconditional MNIST flow model, we apply classifier guidance and inpainting by adding velocity corrections during sampling. We also explore PnP-Flow, which satisfies constraints through iterative projection rather than velocity correction.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/flow-where-you-want/";
           
         },
       },{id: "post-from-trajectories-to-operators-a-unified-flow-map-perspective-on-generative-modeling",
