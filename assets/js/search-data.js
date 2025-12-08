@@ -94,6 +94,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/fans/";
           
         },
+      },{id: "post-ready-for-general-agents-let-39-s-test-it",
+        
+          title: "Ready For General Agents? Let&#39;s Test It.",
+        
+        description: "General-purpose agents are emerging, but current evaluation tools cannot yet measure how well they adapt to unfamiliar environments or protocols; we outline the gaps and a path to a protocol-agnostic framework.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/general-agent-evaluation/";
+          
+        },
       },{id: "post-why-vlms-waste-their-vision",
         
           title: "Why vlms waste their vision",
@@ -158,17 +169,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/using-large-language-models-to-simulate-and-predict-human-decision-making/";
-          
-        },
-      },{id: "post-what-and-what-not-are-calibrated-uncertainties-actually-useful-for",
-        
-          title: "What (and What Not) are Calibrated Uncertainties Actually Useful for?",
-        
-        description: "This blogpost clarifies the practical usefulness of having a model with calibrated probabilities, something that is not often clearly stated in the calibration literature. We show that a calibrated model can be relied on to estimate average loss/reward, however, good calibration does not mean that a model is useful for per-sample decision making.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/useful-calibrated-uncertainties/";
           
         },
       },{id: "post-is-your-algorithm-unlearning-or-untraining",
