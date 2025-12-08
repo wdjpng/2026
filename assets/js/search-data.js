@@ -776,6 +776,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/evalcards/";
           
         },
+      },{id: "post-endocrine-to-synaptic-learnable-signaling-primitives-for-robust-multi-agent-ai",
+        
+          title: "Endocrine-to-Synaptic: Learnable Signaling Primitives for Robust Multi-Agent AI",
+        
+        description: "A bio-inspired multi-agent communication framework that uses five cellular signaling modes, signal amplification cascades, and dynamic network adaptation to achieve scalable, robust, and energy-efficient coordination in large distributed AI systems.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/endocrine-to-synaptic/";
+          
+        },
       },{id: "post-are-llm-agent-populations-really-emergent-a-comprehensive-perspective",
         
           title: "Are LLM Agent Populations Really Emergent? A Comprehensive Perspective",
