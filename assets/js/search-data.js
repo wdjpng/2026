@@ -94,17 +94,6 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/fans/";
           
         },
-      },{id: "post-ready-for-general-agents-let-39-s-test-it",
-        
-          title: "Ready For General Agents? Let&#39;s Test It.",
-        
-        description: "General-purpose agents are emerging, but current evaluation tools cannot yet measure how well they adapt to unfamiliar environments or protocols; we outline the gaps and a path to a protocol-agnostic framework.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/general-agent-evaluation/";
-          
-        },
       },{id: "post-why-vlms-waste-their-vision",
         
           title: "Why vlms waste their vision",
@@ -983,6 +972,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/a-human-centric-framework-for-debating-the-ethics-of-ai-consciousness-under-uncertainty/";
+          
+        },
+      },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2025/2026-04-27-industrial-agent-benchmarking/";
           
         },
       },{id: "post-",
