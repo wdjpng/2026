@@ -171,6 +171,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/using-large-language-models-to-simulate-and-predict-human-decision-making/";
           
         },
+      },{id: "post-what-and-what-not-are-calibrated-probabilities-actually-useful-for",
+        
+          title: "What (and What Not) are Calibrated Probabilities Actually Useful for?",
+        
+        description: "This blogpost clarifies the practical usefulness of having a model with calibrated probabilities, something that is not often clearly stated in the calibration literature. We show that a calibrated model can be relied on to estimate average loss/reward, however, good calibration does not mean that a model is useful for per-sample decision making.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/useful-calibrated-uncertainties/";
+          
+        },
       },{id: "post-is-your-algorithm-unlearning-or-untraining",
         
           title: "Is Your Algorithm Unlearning Or Untraining?",
