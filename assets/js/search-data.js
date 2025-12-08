@@ -237,17 +237,6 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/the-evolution-of-flashattention/";
           
         },
-      },{id: "post-the-bottlenecks-to-scaling-foundation-models-for-robotics",
-        
-          title: "The Bottlenecks to Scaling Foundation Models for Robotics",
-        
-        description: "Current approaches to building Vision-Language-Action (VLA) models largely rely on combining pre-trained Vision-Language Models (VLMs) with imitation learning. While effective in narrow benchmarks, this paradigm faces fundamental limitations for developing general-purpose robots that operate in complex, dynamic environments. In this article, I first review the standard training recipe and identify key bottlenecks, drawing on both my observations and existing empirical evidence. I then outline a path forward: integrating online reinforcement learning with pre-trained VLMs to enable lightweight, computationally efficient methods that scale with available resources.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/the-bottlenecks-to-scaling-foundation-models-for-robotics/";
-          
-        },
       },{id: "post-from-dense-monoliths-to-modular-minds-the-rise-of-symbolic-routing-in-llms",
         
           title: "From Dense Monoliths to Modular Minds: The Rise of Symbolic Routing in LLMs...",
@@ -609,6 +598,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/interpret-model/";
+          
+        },
+      },{id: "post-industrial-agent-benchmarking-what-300-real-evaluations-reveal-about-the-limits-of-agentic-ai",
+        
+          title: "Industrial Agent Benchmarking What 300+ Real Evaluations Reveal About the Limits of Agentic...",
+        
+        description: "A community-scale evaluation of multi-agent systems using AssetOpsBench and a privacy-preserving Codabench pipeline, exposing real-world failure modes and methodological gaps in industrial AI agent evaluation.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/industrial-agent-benchmarking/";
           
         },
       },{id: "post-how-many-tokens-does-it-take-to-say-नमस्ते-a-dive-into-indic-tokenization",
@@ -1027,17 +1027,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/a-human-centric-framework-for-debating-the-ethics-of-ai-consciousness-under-uncertainty/";
-          
-        },
-      },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2025/2026-04-27-industrial-agent-benchmarking/";
           
         },
       },{id: "post-",
