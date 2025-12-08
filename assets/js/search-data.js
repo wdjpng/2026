@@ -237,6 +237,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/the-evolution-of-flashattention/";
           
         },
+      },{id: "post-the-bottlenecks-to-scaling-foundation-models-for-robotics",
+        
+          title: "The Bottlenecks to Scaling Foundation Models for Robotics",
+        
+        description: "Current approaches to building Vision-Language-Action (VLA) models largely rely on combining pre-trained Vision-Language Models (VLMs) with imitation learning. While effective in narrow benchmarks, this paradigm faces fundamental limitations for developing general-purpose robots that operate in complex, dynamic environments. In this article, I first review the standard training recipe and identify key bottlenecks, drawing on both my observations and existing empirical evidence. I then outline a path forward: integrating online reinforcement learning with pre-trained VLMs to enable lightweight, computationally efficient methods that scale with available resources.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/the-bottlenecks-to-scaling-foundation-models-for-robotics/";
+          
+        },
       },{id: "post-from-dense-monoliths-to-modular-minds-the-rise-of-symbolic-routing-in-llms",
         
           title: "From Dense Monoliths to Modular Minds: The Rise of Symbolic Routing in LLMs...",
@@ -334,17 +345,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/rl-with-gnns/";
-          
-        },
-      },{id: "post-rethinking-the-diffusion-model-from-a-langevin-perspective",
-        
-          title: "Rethinking the Diffusion Model from a Langevin Perspective",
-        
-        description: "Diffusion models are often introduced from multiple perspectives—such as VAEs, score matching, or flow matching—accompanied by dense and technically demanding mathematics that can be difficult for beginners to grasp. This article offers a fresh Langevin perspective on diffusion models to lower the technical barrier, aiming to present diffusion models in a simpler, clearer, and more intuitive way while addressing the following questions 1. How does the reverse process invert the forward process to generate data from pure noise? 2. How can ODE-based and SDE-based diffusion models be unified under a single framework? 3. Why are diffusion models theoretically superior to ordinary VAEs? 4. How can Denoising, Score Matching, and Flow Matching training objectives be unified and derived from first principles? We demonstrate that the Langevin perspective offers clear and straightforward answers to these questions, providing pedagogical value for both learners and experienced researchers seeking deeper intuition.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/rethinking-diffusion-langevin/";
           
         },
       },{id: "post-dynamic-parameter-reuse-augments-reasoning-via-latent-chain-of-thought",
@@ -697,17 +697,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/from-ml-to-dl/";
-          
-        },
-      },{id: "post-flow-where-you-want",
-        
-          title: "Flow Where You Want",
-        
-        description: "This tutorial demonstrates how to add inference-time controls to pretrained flow-based generative models. Using an unconditional MNIST flow model, we apply classifier guidance and inpainting by adding velocity corrections during sampling. We also explore PnP-Flow, which satisfies constraints through iterative projection rather than velocity correction.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/flow-where-you-want/";
           
         },
       },{id: "post-from-trajectories-to-operators-a-unified-flow-map-perspective-on-generative-modeling",
