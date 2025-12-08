@@ -710,6 +710,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/from-ml-to-dl/";
           
         },
+      },{id: "post-flow-where-you-want",
+        
+          title: "Flow Where You Want",
+        
+        description: "This tutorial demonstrates how to add inference-time controls to pretrained flow-based generative models. Using an unconditional MNIST flow model, we apply classifier guidance and inpainting by adding velocity corrections during sampling. We also explore PnP-Flow, which satisfies constraints through iterative projection rather than velocity correction.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/flow-where-you-want/";
+          
+        },
       },{id: "post-from-trajectories-to-operators-a-unified-flow-map-perspective-on-generative-modeling",
         
           title: "From Trajectories to Operators — A Unified Flow Map Perspective on Generative Modeling...",
@@ -928,17 +939,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/compositionality/";
-          
-        },
-      },{id: "post-can-coding-agents-be-general-agents",
-        
-          title: "Can Coding Agents be General Agents?",
-        
-        description: "As coding agents have seen rapid capability and adoption gains, users are applying them to general tasks beyond software engineering. In this post, we investigate whether coding agents can successfully generalize to end-to-end business process automation. We identify gaps in current evaluations, and conduct a case study to evaluate a coding agent on practical business tasks in an open-core Enterprise Resource Planning system. We find that the agent reliably completes simple tasks but exhibits characteristic failures on complex tasks, suggesting that bridging domain logic and code execution is a key bottleneck to generalizability.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/coding-agents/";
           
         },
       },{id: "post-chunktabpfn-training-free-long-context",
