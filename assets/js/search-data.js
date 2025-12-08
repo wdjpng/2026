@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "https://iclr-blog-track.github.io/home/";
               },
-            },{id: "post-fans-frequency-adaptive-noise-shaping-for-diffusion-models",
+            },{id: "post-fairness-audits-as-theater-when-metrics-mask-structural-harm",
+        
+          title: "Fairness Audits as Theater: When Metrics Mask Structural Harm",
+        
+        description: "This blog post examines why contemporary fairness audits fail to prevent algorithmic harm, despite growing adoption. We analyze structural limitations and propose substantive alternatives grounded in participatory accountability.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/fairness-audits/";
+          
+        },
+      },{id: "post-fans-frequency-adaptive-noise-shaping-for-diffusion-models",
         
           title: "FANS - Frequency-Adaptive Noise Shaping for Diffusion Models",
         
