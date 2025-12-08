@@ -512,17 +512,6 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/measuregen/";
           
         },
-      },{id: "post-learning-to-maximize-rewards-via-reaching-goals",
-        
-          title: "Learning to Maximize Rewards via Reaching Goals",
-        
-        description: "Goal-conditioned reinforcement learning learns to reach goals instead of optimizing hand-crafted rewards. Despite its popularity, the community often categorizes goal-conditioned reinforcement learning as a special case of reinforcement learning. In this post, we aim to build a direct conversion from any reward-maximization reinforcement learning problem to a goal-conditioned reinforcement learning problem, and to draw connections with the stochastic shortest path framework. Our conversion provides a new perspective on the reinforcement learning problem: maximizing rewards is equivalent to reaching some goals.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/mdp-to-gcmdp/";
-          
-        },
       },{id: "post-research-directions-in-multimodal-chain-of-thought-mcot-with-sketching",
         
           title: "Research Directions in Multimodal Chain-of-Thought (MCoT) with Sketching",
@@ -686,17 +675,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/from-ml-to-dl/";
-          
-        },
-      },{id: "post-flow-where-you-want",
-        
-          title: "Flow Where You Want",
-        
-        description: "This tutorial demonstrates how to add inference-time controls to pretrained flow-based generative models. Using an unconditional MNIST flow model, we apply classifier guidance and inpainting by adding velocity corrections during sampling. We also explore PnP-Flow, which satisfies constraints through iterative projection rather than velocity correction.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/flow-where-you-want/";
           
         },
       },{id: "post-from-trajectories-to-operators-a-unified-flow-map-perspective-on-generative-modeling",
@@ -1005,6 +983,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/a-human-centric-framework-for-debating-the-ethics-of-ai-consciousness-under-uncertainty/";
+          
+        },
+      },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2025/2026-04-27-industrial-agent-benchmarking/";
           
         },
       },{id: "post-",
