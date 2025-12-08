@@ -600,17 +600,6 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/indic-tokenization/";
           
         },
-      },{id: "post-the-illusion-of-mastery-breaking-the-cycle-of-benchmark-memorization-with-generative-evaluation",
-        
-          title: "The Illusion of Mastery: Breaking the Cycle of Benchmark Memorization with Generative Evaluation...",
-        
-        description: "Modern AI models that score perfectly on standardized benchmarks often fail in real-world applications. In this post, we first examine why current evaluation paradigms increasingly fail to capture how models perform in real-world scenarios, leading to an illusion of competence. Then, we introduce generative evaluation that automatically creates novel, diverse tasks every time a model is tested, and explain how it offers a more realistic way to measure what AI systems can actually do.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/illusion-of-mastery/";
-          
-        },
       },{id: "post-heuristic-based-ideation-for-guiding-llms-toward-structured-creativity",
         
           title: "Heuristic-Based Ideation for Guiding LLMs Toward Structured Creativity",
@@ -862,6 +851,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/compositionality/";
+          
+        },
+      },{id: "post-can-coding-agents-be-general-agents",
+        
+          title: "Can Coding Agents be General Agents?",
+        
+        description: "Coding agents have seen rapid capability and adoption gains. Recently, a trend has emerged: users are applying coding agents to general automation tasks beyond software engineering. In this post, we investigate whether coding agents can generalize to end-to-end business process automation. We define success as the effective bidirectional translation between business-level goals and code-level implementation, and identify an evaluation gap: existing benchmarks test one of the two, but rarely both together. We bridge this gap with a case study, evaluating a coding agent on practical business operation tasks using an open-core Enterprise Resource Planning system, Odoo. We find that the agent reliably completes simple tasks but exhibits characteristic failures on complex tasks: lazy code heuristics, hallucinated domain knowledge, and silent policy violations. Our results suggest that bridging domain logic and code execution is a key bottleneck for general-purpose agents.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/coding-agents/";
           
         },
       },{id: "post-chunktabpfn-training-free-long-context",
