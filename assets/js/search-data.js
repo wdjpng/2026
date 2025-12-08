@@ -644,6 +644,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/healthcare-nlp/";
           
         },
+      },{id: "post-ready-for-general-agents-let-39-s-test-it",
+        
+          title: "Ready For General Agents? Let&#39;s Test It.",
+        
+        description: "General-purpose agents are emerging, but current evaluation tools cannot yet measure how well they adapt to unfamiliar environments or protocols; we outline the gaps and a path to a protocol-agnostic framework.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/general-agent-evaluation/";
+          
+        },
       },{id: "post-generative-ai-archaeology",
         
           title: "Generative AI Archaeology",
