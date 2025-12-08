@@ -908,6 +908,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/compositionality/";
           
         },
+      },{id: "post-can-coding-agents-be-general-agents",
+        
+          title: "Can Coding Agents be General Agents?",
+        
+        description: "As coding agents have seen rapid capability and adoption gains, users are applying them to general tasks beyond software engineering. In this post, we investigate whether coding agents can successfully generalize to end-to-end business process automation. We identify gaps in current evaluations, and conduct a case study to evaluate a coding agent on practical business tasks in an open-core Enterprise Resource Planning system. We find that the agent reliably completes simple tasks but exhibits characteristic failures on complex tasks, suggesting that bridging domain logic and code execution is a key bottleneck to generalizability.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/coding-agents/";
+          
+        },
       },{id: "post-chunktabpfn-training-free-long-context",
         
           title: "ChunkTabPFN: Training-free Long Context",
@@ -994,6 +1005,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/a-human-centric-framework-for-debating-the-ethics-of-ai-consciousness-under-uncertainty/";
+          
+        },
+      },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2025/2026-04-27-industrial-agent-benchmarking/";
           
         },
       },{id: "post-",
