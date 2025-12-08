@@ -503,7 +503,7 @@ ninja.data = [{
         },
       },{id: "post-learning-to-maximize-rewards-via-reaching-goals",
         
-          title: "Learning to maximize rewards via reaching goals",
+          title: "Learning to Maximize Rewards via Reaching Goals",
         
         description: "Goal-conditioned reinforcement learning learns to reach goals instead of optimizing hand-crafted rewards. Despite its popularity, the community often categorizes goal-conditioned reinforcement learning as a special case of reinforcement learning. In this post, we aim to build a direct conversion from any reward-maximization reinforcement learning problem to a goal-conditioned reinforcement learning problem, and to draw connections with the stochastic shortest path framework. Our conversion provides a new perspective on the reinforcement learning problem: maximizing rewards is equivalent to reaching some goals.",
         section: "Posts",
