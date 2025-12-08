@@ -193,6 +193,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/unigramlm-manual/";
           
         },
+      },{id: "post-uncertainty-lifecycle-in-deep-learning",
+        
+          title: "Uncertainty Lifecycle in Deep Learning",
+        
+        description: "Uncertainty modeling in deep learning has different attributes such as uncertainty propagation, uncertainty estimation, uncertainty decomposition, uncertainty attribution and uncertainty sensitivity, that are extensively discussed in literature. However, there is no proper structure explaining how these different components interact with each other at different stages of Deep Learning pipeline. We propose to structure the flow and transformation of uncertainty from input to prediction through the model, by appropriately positioning them. And we call this structure as “Uncertainty Lifecycle”. The “Uncertainty lifecycle” can be represented as a structured process for handling, quantifying, analyzing, and interpreting uncertainties at different stages of Deep Learning pipeline.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/uncertainty-lifecycle-in-deep-learning/";
+          
+        },
       },{id: "post-tracing-the-principles-behind-modern-diffusion-models",
         
           title: "Tracing the Principles Behind Modern Diffusion Models",
@@ -642,17 +653,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/healthcare-nlp/";
-          
-        },
-      },{id: "post-ready-for-general-agents-let-39-s-test-it",
-        
-          title: "Ready For General Agents? Let&#39;s Test It.",
-        
-        description: "General-purpose agents are emerging, but current evaluation tools cannot yet measure how well they adapt to unfamiliar environments or protocols; we outline the gaps and a path to a protocol-agnostic framework.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/general-agent-evaluation/";
           
         },
       },{id: "post-generative-ai-archaeology",
