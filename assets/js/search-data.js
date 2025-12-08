@@ -1018,17 +1018,6 @@ ninja.data = [{
             window.location.href = "/2026/blog/2025/2026-04-27-egraph-symreg/";
           
         },
-      },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2025/2026-04-27-coding-agents/";
-          
-        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
