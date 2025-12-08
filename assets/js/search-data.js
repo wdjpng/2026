@@ -1004,6 +1004,17 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
+            window.location.href = "/2026/blog/2025/2026-04-27-industrial-agent-benchmarking/";
+          
+        },
+      },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
             window.location.href = "/2026/blog/2025/2026-04-27-hallucination-cs/";
           
         },
