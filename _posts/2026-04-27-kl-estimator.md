@@ -118,27 +118,22 @@ $$
 $$
 
 Great! Now let's do first handwavy approximation of $$\lambda_{opt}$$ under the assumption that $$\epsilon(x) = r(x)-1$$ is small. Indeed $$\log(1+\epsilon) = \epsilon + \mathcal O(\epsilon^2)$$, so 
+
 $$
 \lambda_{opt} = \frac{E_p[(\log (1+\epsilon(x))) \epsilon(x)]}{E_p[\epsilon(x)^2]} = \frac{E_p[(\epsilon(x) + \mathcal O(\epsilon(x)^2)) \epsilon(x)]}{E_p[\epsilon(x)^2]} \approx \frac{E_p[\epsilon(x)^2]}{E_p[\epsilon(x)^2]}= 1
 $$
 
 Being acutely aware that the above argument is a far cry from an actual mathematical proof, we now go on to more rigorously state our result:
 # Same thing but more rigorous
-Assume $$p_n$$ and $$q_n$$ are sequences of probability distributions such that the ratio $$r_n(x) = q_n(x)/p_n(x)$$ has finite variance and converges uniformly to 1 as $$n \to \infty$$. Then with $$\epsilon_n = r_n(x) -1$$, we obtain that for $$n$$ large enough,
+Assume $$p_n$$ and $$q_n$$ are sequences of probability distributions such that the ratio $$r_n(x) = q_n(x)/p_n(x)$$ has finite variance and converges uniformly to 1 as $$n \to \infty$$. Then with $$\epsilon_n(x) = r_n(x) -1$$, we obtain that for $$n$$ large enough,
 
 $$
 \begin{align*}
-    |\lambda_{opt,n} - 1| &= \left| \frac{E_p[(\log (1+\epsilon(x))) \epsilon(x)]}{E_p[\epsilon(x)^2]} - \frac{E_p[\epsilon(x)^2]}{E_p[\epsilon(x)^2]}\right| \\
-    
-    \\& = \left|\frac{E_{p_n}[ (\log (\epsilon_n +1) - \epsilon_n) \epsilon_n ]}{E_{p_n}[\epsilon_n^2 ]}\right|\\ 
-
-% &\leq \frac{E_{p_n} |(\log (\epsilon_n +1) - \epsilon_n) \epsilon_n| }{E_{p_n}[\epsilon_n^2 ]} \\
-
-&\leq  \frac{E_{p_n} |C\epsilon_n^3| }{E_{p_n}[\epsilon_n^2 ]}  \\
-
-&\leq \frac{C \sup_{x\in \mathbb R} \epsilon_n(x)E_{p_n} [\epsilon^2]}{E_{p_n} [\epsilon^2]} \\
-
-&= C \sup_{x\in \mathbb R} \epsilon_n(x)
+    |\lambda_{opt,n} - 1| &= \left| \frac{E_{p_n}[(\log (1+\epsilon_n)) \epsilon_n]}{E_{p_n}[\epsilon_n^2]} - \frac{E_{p_n}[\epsilon_n^2]}{E_{p_n}[\epsilon_n^2]}\right| \\
+    & = \left|\frac{E_{p_n}[ (\log (\epsilon_n +1) - \epsilon_n) \epsilon_n ]}{E_{p_n}[\epsilon_n^2 ]}\right|\\ 
+    &\leq  \frac{E_{p_n} |C\epsilon_n^3| }{E_{p_n}[\epsilon_n^2 ]}  \\
+    &\leq \frac{C \sup_{x\in \mathbb R} \epsilon_n(x)E_{p_n} [\epsilon_n^2]}{E_{p_n} [\epsilon_n^2]} \\
+    &= C \sup_{x\in \mathbb R} \epsilon_n(x)
 \end{align*}
 $$
 
@@ -146,11 +141,11 @@ $$
 Where
 $$|\log(\epsilon_n+1)-\epsilon_n| < C\epsilon_n$$ holds for $$|\epsilon_n| < \frac{1}{2}$$ and some $$C>0$$ because the first order Taylor expansion of $$\log(x+1)$$ is $$x$$, yielding a remainder that is $$O(x²)$$[^1]
 
-Now, since $$\epsilon_n$$ goes to zero uniformly, $$\sup_{x\in \mathbb R} \epsilon_n(x)$$ goes to zero, this proves that $$\lambda_{opt,n} \to 1$$ as $$n \to \infty$$
+Now, since $$\epsilon_n$$ goes to zero uniformly, $$\sup\limits_{x\in \mathbb R} \epsilon_n(x)$$ goes to zero, this proves that $$\lambda_{opt,n} \to 1$$ as $$n \to \infty$$
 
 
 Small note: division by zero is not a problem since the ratio $$r$$ has variance one iff $$p=q$$, in which case any $$\lambda$$ results in zero variance. Note furthermore that we never explicitly needed the probability distributions to admit densitites - the entire proof also tracks with a Radon-Nikodym derivative that has finite variance and converges uniformly to one.
 
 Important caveat: this more rigorous proof does not yet prove that the optimal $$\lambda$$ converges in the Gaussian case we visualized above (because convergence of the ratio is not uniform). 
 
-[^1]: This is a standard analysis argument that just follows from the explicit [formula for the remainder in the Taylor polynomial](https://en.wikipedia.org/wiki/Taylor's_theorem#Explicit_formulas_for_the_remainder) that is proved via induction on the mean value theorem and then noting that the second derivative of $$\log(1+x)$$ is bounded on $$[-\frac{1}{2}, \frac{1}{2}]$$ by some $$C>0$$
+[^1]: This standard claim follows from the [explicit formula for the remainder in the Taylor polynomial](https://en.wikipedia.org/wiki/Taylor's_theorem#Explicit_formulas_for_the_remainder) & noting that the second derivative of the logarithm is bounded on $$[-\frac{1}{2}, \frac{1}{2}]$$ by some $$C>0$$
